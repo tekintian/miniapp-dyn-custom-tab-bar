@@ -1,0 +1,5 @@
+<!--pages/promote/promote.wxml-->
+
+<view class="container">
+  <text>pages/promote/promote.wxml</text>
+</view>

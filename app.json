@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/promote/promote",
+    "pages/member/member"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/user/user"
+      },
+      {
+        "pagePath": "pages/promote/promote"
+      },
+      {
+        "pagePath": "pages/member/member"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "renderer": "skyline",
+  "componentFramework": "glass-easel"
+}

@@ -1,0 +1,16 @@
+/* pages/login/login.wxss */
+.tips{
+  margin: .1rem 2rem 1.5rem;
+}
+.page-section{
+  margin: 1rem auto 1rem;
+  min-width: 16rem;
+  max-width: 100%;
+}
+
+.page-section-title {
+  max-width: 4rem;
+  float: left;
+  padding-right: .5rem;
+  text-align: right;
+}

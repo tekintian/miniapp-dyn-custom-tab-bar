@@ -1,0 +1,7 @@
+<!--pages/member/member.wxml-->
+
+<view class="container">
+  <text>{{loginName}}</text>
+
+  <view bindtap="logout" class="btn btn-logout">退出登录</view>
+</view>

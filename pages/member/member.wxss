@@ -1,0 +1,10 @@
+/* pages/member/member.wxss */
+.btn{
+  position: inherit;
+  margin: 1rem auto .1rem;
+  border: 1px dotted #d5e1ec;
+}
+.btn-logout {
+  font-size: large;
+  color: chocolate;
+}

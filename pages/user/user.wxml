@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="content">当前登录用户名：{{loginName}}</text>
+  <text class="content">TabBar Index: {{tabBarIdx}}</text>
+  <view bindtap="logout" class="btn btn-logout">退出登录</view>
+</view>

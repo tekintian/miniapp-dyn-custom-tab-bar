@@ -1,0 +1,35 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+    <text class="tips"> 请分别使用 admin 和 test 用户登录后查看TabBar菜单的变化！</text>
+    <form catchsubmit="doLogin" catchreset="formReset">
+      <view class="page-section">
+        <view class="page-section-title">用户名:</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" value="{{username}}" name="username" placeholder="请输入用户名admin/test" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="page-section-title">密        码:</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" value="{{password}}" name="password" placeholder="请输入用户密码" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="btn-area">
+        <button style="margin: 30rpx 0" type="primary" formType="submit">登录</button>
+        <button style="margin: 30rpx 0" formType="reset">重置</button>
+      </view>
+    </form>
+
+</view>
+
+
+
